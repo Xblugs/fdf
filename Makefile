@@ -12,9 +12,9 @@
 
 CC		:= cc
 CFLAGS	:= -Wall -Wextra -Werror
-LIB		:=  -lXext -lX11 -lz\
-			-L. -lfdf -Lprintf -lftprintf -lm  \
-			-Lminilibx-linux -lmlx
+LIB		:=  -L. -lfdf -Lprintf -lftprintf -lm  \
+			-Lminilibx-linux -lmlx				\
+			-lXext -lX11 -lz
 # mlx + dep(xorg + x11 + zlib) + fdf + math + ft_printf
 # mlx lib in last otherwise it's discarded before lfdf use them
 
