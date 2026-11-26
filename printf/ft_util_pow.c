@@ -55,8 +55,6 @@ unsigned long	ft_iter_pow(unsigned long nb, unsigned long power)
 	unsigned long	n;
 
 	n = 1;
-	if (power < 0)
-		return (0);
 	if (power == 0)
 		return (1);
 	while (power > 0)

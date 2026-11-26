@@ -35,11 +35,9 @@ int	ft_atoi(const char *nptr)
 static int	ft_get_digit(char *digit, char *str)
 {
 	int	i;
-	int	j;
 	int	min;
 
 	i = 0;
-	j = 0;
 	min = 0;
 	while ((str[i] == 32 || (str[i] >= 9 && str[i] <= 13)) && str[i] != 0)
 		i++;

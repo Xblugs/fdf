@@ -83,7 +83,7 @@ int	get_line_count(char *file)
 	}
 	free(ret);
 	close(fd);
-	ft_printf("%s\n\e[3;37mDone reading.\e[0m\n", ret);
+	ft_printf("\n\e[3;37mDone reading.\e[0m\n");
 	return (i);
 }
 
